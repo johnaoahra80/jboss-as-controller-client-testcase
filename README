@@ -1,0 +1,4 @@
+jboss-as-controller-client-testcase
+===================================
+
+Testcase to recreate jboss as management issue when multiple threads execute commands over same client connection
