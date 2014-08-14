@@ -2,3 +2,20 @@ jboss-as-controller-client-testcase
 ===================================
 
 Testcase to recreate jboss as management issue when multiple threads execute commands over same client connection
+
+How to Run test
+===============
+
+1. start EAP with default standalone.xml configuration file
+2. execute "mvn test"
+
+Expected Result
+===============
+
+All tests run and pass
+
+Error Result
+============
+
+Tests hang and never complete
+EAP becomes unresponsive via jboss-cli
